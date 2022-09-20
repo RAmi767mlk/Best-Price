@@ -1,0 +1,260 @@
+.container {
+    max-width: 75%;
+}
+
+@media screen and (max-width: 780px) {
+    div.container {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    div.container {
+        max-width: 99%;
+    }
+}
+
+
+/* -------------------------------------------------------------------------- navbar ---------------------------------------------- */
+
+.bg-primary {
+    background-color: #3A4750 !important;
+}
+
+.nav-item .nav-link:hover {
+    color: #52e6ad;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.nav_link {
+    color: white;
+}
+
+.nav_link:hover {
+    color: #52e6ad !important;
+}
+
+.nav_link_my_store {
+    color: #8bbb7a !important;
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.list-group-item .nav-link2 {
+    color: #ff7300;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.list-group-item .nav-link2:hover {
+    color: #2d82d1;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.login_link {
+    color: #ff6c6c;
+    text-decoration: none;
+}
+
+.login .login_link:hover {
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+/* =============================================================== category css =================================================== */
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #43957e;
+}
+
+.category_list {
+    margin-left: 1rem;
+}
+
+
+/*  ------------------------------------------------------------------ letest update -------------------------------------------- */
+
+.letest_update {
+    background-image: linear-gradient(110deg, #e6662b, #1b33b9);
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 780px) {
+    .letest_update {
+        margin-right: 0rem;
+    }
+}
+
+.btn-link {
+    color: #ff0000;
+}
+
+@media screen and (max-width: 780px) {
+    .brand_logo {
+        text-align: center !important;
+    }
+}
+
+
+/* ------------------------------------------------------------------ products feature section -----------------------------*/
+
+.section_head {
+    font-size: 22px;
+    font-weight: 400;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.1);
+    color: #ff2121;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.price_tag {
+    font-weight: 600;
+    color: rgb(120, 187, 120);
+}
+
+.product_link {
+    color: rgb(19, 19, 19);
+    text-align: center;
+}
+
+.product_link:hover {
+    color: #2b65cf !important;
+}
+
+@media screen and (max-width: 780px) {
+    .product_info {
+        text-align: center;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #4d8c8c;
+    border-color: #007bff;
+}
+
+
+/* ------------------------------------------------------------ footer section start here ------------------------------------------- */
+
+.footer-link {
+    color: white;
+    font-size: 16px;
+}
+
+.footer-link:hover {
+    color: rgb(236, 78, 78);
+    font-size: 18px;
+}
+
+
+/* -------------------------------------------------------- footer social icon style starts here -------------------------------------- */
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    border: circle;
+    color: #292929;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 12px 10px 12px;
+    padding-top: 3rem;
+}
+
+.social-icon li a:hover {
+    border-color: #bfba55;
+    color: #bfba55;
+    transform: scale(1.1);
+}
+
+
+/* -------------------------------------------------------- footer social icon style end here -------------------------------------- */
+
+
+/* -------------------------------------------------------- about us page start here -------------------------------------- */
+
+.mesg-head {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: underline; */
+}
+
+
+/* -------------------------------------------------------- about us page end here -------------------------------------- */
+
+
+/* --------------------------------------------------------------- login page start here ------------------------------------------------------- */
+
+.login-head {
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-success:hover {
+    background-color: rgb(47, 108, 201);
+}
+
+.btn-success {
+    font-size: 12px;
+}
+
+.forgetpass-link {
+    color: rgb(0, 0, 0);
+}
+
+.forgetpass-link:hover {
+    color: rgb(255, 66, 66);
+}
+
+
+/* ---------------------------------------------------------------login page end here ------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------account info page start here ------------------------------------------------------- */
+
+.btn-light {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 12px;
+}

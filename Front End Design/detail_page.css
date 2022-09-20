@@ -1,0 +1,207 @@
+ /* styles unrelated to zoom */
+ * { border:0; margin:0; padding:0; }
+
+ /* these styles are for the demo, but are not required for the plugin */
+ .zoom {
+     display:inline-block;
+     position: relative;
+     margin-left: 200px;
+ }
+ 
+ /* magnifying glass icon */
+ .zoom:after {
+     content:'';
+     display:block; 
+     width:33px; 
+     height:33px; 
+     position:absolute; 
+     top:0;
+     right:0;
+     background:url(icon.png);
+ }
+
+ .zoom img {
+     display: flex;
+     width: 525px;
+     height: 520px;
+ }
+ .zooming{
+     height: fit-content;
+     width: fit-content;
+     padding: 0px;
+    
+ }
+
+ .zoom img::selection { background-color: transparent; }
+ .zoom > p { position:absolute; top:3px; right:28px; color:#555; font:bold 13px/1 sans-serif; }
+ .zoom > .mobile{
+     display: none;
+ }
+
+.zoom img{
+    /* min-height: 320px; */
+    /* max-width: 100% !important; */
+    margin: auto;
+    max-width: 100%;
+}
+
+div #ex1{
+     margin: auto;
+     /* width: 400px; */
+     max-width: 100%;
+ }
+
+ .product{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     min-height: 600px;
+     padding: 30px;
+ }
+ .product-name{
+     display:flex;
+     flex-direction: column;
+     width: fit-content;
+    padding: auto;
+ }
+
+ .product-name small{
+     font-weight: bolder;
+ }
+
+
+ .product-details{
+     width: 400px;
+     margin-left: 60px;
+     margin-top: 60px;
+ }
+ .product-details h5,.product-details span{
+     font-weight: bold;
+ }
+ .product-details ul{
+     margin-left: 25px;
+ }
+
+ .product-name h4{
+     font-weight: bolder;
+     width: fit-content;
+     /* margin: 5px auto 2px 0px; */
+      
+ }
+
+ 
+
+
+ @media only screen and (max-width: 792px){
+   
+    .zoom  .mobile{
+        display: block;
+    } 
+    .zoom .web{
+        display: none;
+    }
+    .product{
+         flex-direction: column;
+         height: fit-content;
+     }
+     .product #ex1{
+         margin-left: 0px;
+         max-width: 100%;
+     }
+     .product ul{
+         margin-left: 16px;
+     }
+
+
+     .product-name{
+         width: fit-content;
+         padding-bottom: 0px;
+     }
+
+     .product-name .zoom{
+        margin: 20px !important;
+     }
+     .product-details p:nth-of-type(1), p:nth-of-type(2){
+         margin:0px !important;
+     }
+   
+
+    
+    
+    
+     #ex1 img{
+         width: 320px;
+         height: 240px;
+         min-height: fit-content;
+     }
+     img.zooming{
+         height:fit-content;
+         width: fit-content !important;
+     }
+
+     .product-details {
+         width: 100%;
+         margin: auto;
+         padding: auto;
+     }
+ }
+ .message{
+     font-weight: bold;
+     cursor: pointer;
+     width: fit-content;
+     padding: 0px;
+     margin: 0px;
+ }
+.similar-stores span {
+    color: #FF0000;
+}
+
+footer div{
+    margin:auto !important;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+.compare{
+    margin: 20px;
+    
+}
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  tr{
+      border: 1px solid lavender;
+  }
+  th img{
+      /* max-width: 100%; */
+      width: 200px;
+  }
+  tr> td:nth-child(2){
+      background-color: #ffffee;
+  }
+  tr:nth-child(even) > td:nth-child(2){
+    background-color: #ffffde;
+}
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+@media only screen and (max-width: 792px){
+    .social{
+        margin: 20px 20px !important;
+    }
+    tr td{
+        margin: 50px !important;
+    }
+    th img{
+        /* max-width: 100%; */
+        width: 150px;
+    }
+ 
+}

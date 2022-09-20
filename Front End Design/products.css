@@ -1,0 +1,32 @@
+.price-select > input, .price-select > label{
+    margin: 20px 30px !important;
+    display: inline-block;
+    
+}
+.price-select{
+    background-color: lavenderblush;
+    border: 1px solid lavender;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+}
+.price-select div h5{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+h2{
+    margin-top: 20px;
+    margin:10px auto;
+    font-weight: bold;
+    width: fit-content;
+}
+
+@media only screen and (max-width: 792px){
+    .price-select > input, .price-select > label{
+        margin: 20px 30px !important;
+        display: inline-block;
+        
+    }
+}
